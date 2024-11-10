@@ -65,8 +65,7 @@ cat dramsim3.json
 - A DRAMsim3 installation from this [fork](https://github.com/joydddd/DRAMsim3), and link to sniper-toleo repo.
 ```
 ## in folder toleo_root. 
-git clone git@github.com:joydddd/sniper-toleo.git # clone sniper-toleo (this repo)
-cd sniper-toleo
+git clone git@github.com:joydddd/sniper-toleo.git # clone sniper-toleo (this repo)cd sniper-toleo
 ln -s ../DRAMsim3 DRAMsim3
 ```
 
@@ -117,7 +116,12 @@ Now you've successfully setup sniper-toleo and is ready to simluate toleo for an
 ```
 More controls over the simulation are available via `./run-sniper --help`. 
 > [!NOTE]
-> Our simulator is configured for 32 cores. Please setup your benchmark to run with 32 threads for best experience. Benchmarks with >32 threads might run into deadlock problems. 
+> Our simulator is configured for 32 cores. Please setup your benchmark to run with 32 threads for best experience. Benchmarks with >32 threads might run into deadlock problems.
+
+# Citing Toleo
+```
+@misc{dong2024toleoscalingfreshnessterascale, title={Toleo: Scaling Freshness to Tera-scale Memory using CXL and PIM}, author={Juechu Dong and Jonah Rosenblum and Satish Narayanasamy}, year={2024}, eprint={2410.12749}, archivePrefix={arXiv}, primaryClass={cs.AR}, url={https://arxiv.org/abs/2410.12749}, }
+```
 
 
 # Setup Benchmark 
