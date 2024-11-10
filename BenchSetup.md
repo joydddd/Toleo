@@ -1,5 +1,9 @@
 # Benchmark Setup Instructions
-Find benchmarks in this [list](https://github.com/stars/joydddd/lists/toleo). 
+We provided PIN hooks inserted benchmarks used in our evaluations in this [list](https://github.com/stars/joydddd/lists/toleo). Please refer to [benchmark setup instruction](BenchSetup.md). 
+
+
+In this section, we provided instructions on how to setup the benchmark suites used in our evaluation and our instrumentation setup. In particular, we manually insert PIN hooks around the region of interest in the source code of our benchmarks, and fast forward some number of instructions, and then simulate in detailed mode for 100m or 1b instructions. In this [list](https://github.com/stars/joydddd/lists/toleo) we provide forks of the benchmark sets with the PIN_HOOK inserted. 
+
 - [Genomebench](https://github.com/joydddd/Genomebench)
   - (sample test) bsw-s
   - bsw
