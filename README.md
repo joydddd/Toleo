@@ -1,5 +1,5 @@
 # SniperSim Simulator for Toleo 
-This is a sniper sim based simulator for Toleo (ASPLOS'25) Please refer to our paper "Toleo: Scaling Freshness to Tera-scale Memory
+This is a sniper sim and DRAMSim based simulator for Toleo (ASPLOS '24) Please refer to our paper "Toleo: Scaling Freshness to Tera-scale Memory
 Using CXL and PIM" for details. 
 
 # Getting Started
@@ -119,6 +119,7 @@ More controls over the simulation are available via `./run-sniper --help`.
 > Our simulator is configured for 32 cores. Please setup your benchmark to run with 32 threads for best experience. Benchmarks with >32 threads might run into deadlock problems.
 
 # Citing Toleo
+If you use Toleo in your research, please cite: 
 ```
 @misc{dong2024toleoscalingfreshnessterascale, title={Toleo: Scaling Freshness to Tera-scale Memory using CXL and PIM}, author={Juechu Dong and Jonah Rosenblum and Satish Narayanasamy}, year={2024}, eprint={2410.12749}, archivePrefix={arXiv}, primaryClass={cs.AR}, url={https://arxiv.org/abs/2410.12749}, }
 ```
